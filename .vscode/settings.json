@@ -1,0 +1,7 @@
+{
+    "explorer.confirmDelete": true,
+    "explorer.confirmDragAndDrop": true,
+    "explorer.enableDragAndDrop": true,
+    "explorer.autoReveal": true,
+    "explorer.sortOrder": "default"
+}
