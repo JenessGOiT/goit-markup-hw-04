@@ -378,7 +378,35 @@ img {
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    margin-bottom: 50px;
+    color: var(--title-text-color);
+}
+
+.clients-item {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.clients-a {
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--back-soc-color);
+}
+
+.clients-icon {
+    fill: currentColor; 
+}
+
+.clients-a:hover,
+.clients-a:focus {
+    border-color: var(--accent-color);
+    color: var(--accent-color);
 }
 
 /* Подвал */
@@ -387,6 +415,11 @@ img {
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: var(--foothero-back-color);
+}
+
+.footer-main-div {
+    display: flex;
+    align-items: baseline;
 }
 
 .span-studio-down {
@@ -440,6 +473,48 @@ img {
     color: var(--accent-color);
 }
 
+.footer-soc-div {
+    margin-left: 70px;
+}
+
+.footer-soc-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: var(--main-sections-color);
+    margin-bottom: 20px;
+}
+
+.footer-soc-list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer-soc-a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    color: var(--main-sections-color);
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.footer-soc-icon {
+    fill: currentColor;
+}
+
+.footer-soc-a:hover,
+.footer-soc-a:focus {
+    background-color: var(--accent-color    );
+}
+
 /* Портфолио */
 
 .main {
@@ -487,6 +562,11 @@ img {
     width: calc((100% - 60px) / 3);
     background-color: var(--main-sections-color);
     border: 1px solid #EEEEEE;
+}
+
+.team-work-li:hover,
+.team-work-li:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .team-work-div {
